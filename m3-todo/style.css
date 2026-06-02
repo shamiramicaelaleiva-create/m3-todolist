@@ -1,3 +1,19 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.container {
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+  width: 400px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
   text-align: center;
   color: #333;
@@ -19,11 +35,11 @@ h1 {
 
 #inputTarea:focus {
   outline: none;
-  border-color: #d682ac;
+  border-color: #6c63ff;
 }
 
 #btnAgregar {
-  background: #db7ba8;
+  background: #db739f;
   color: white;
   border: none;
   padding: 10px 15px;
